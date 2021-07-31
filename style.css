@@ -1,0 +1,37 @@
+h1 {
+    color : red
+
+}
+
+.header {
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid {
+    background-color: plum ;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer {
+    background-color: rosybrown;
+    display: flex;
+    justify-content: flex-end;
+}
+
+p, h2 {
+    text-align: center;
+}
+
+.item {
+    background-color: salmon;
+    border: solid;
+    border-color: slateblue;
+    border-radius: 5%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
